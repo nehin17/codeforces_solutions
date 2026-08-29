@@ -18,6 +18,9 @@ public class HelpfulMaths{
         }
         for(int i=0; i<3; i++){
             while(arr[i]>0){
+                //make sure to do the decrement 
+                //also append the i+1 first  (0 based indexig)
+                //then append + operator to avoid mixing two diff data types 
                 ans.append( i +1).append('+');
                 arr[i]--;
             }
