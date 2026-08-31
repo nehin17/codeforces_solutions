@@ -10,7 +10,12 @@ public class SoldierAndBananas {
         for(int i =1; i<=w; i++){
             cost+=i*k;
         }
-        System.out.println(cost-n);
+        if(n>=cost){
+            System.out.println(0);
+        }else{
+            System.out.println(cost-n);
+        }
+        
         sc.close();
     }
     
